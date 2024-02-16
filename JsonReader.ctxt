@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=JsonReader
+comment1.params=
+comment1.target=JsonReader()
+comment2.params=key
+comment2.target=java.lang.String\ search(java.lang.String)
+numComments=3

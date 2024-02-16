@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Pixel
+comment1.params=b\ t
+comment1.target=Pixel(boolean,\ int)
+comment2.params=B
+comment2.target=void\ setBuchstabe(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getBuchstabe()
+comment4.params=
+comment4.target=boolean\ getBit()
+comment5.params=
+comment5.target=int\ getType()
+comment6.params=b
+comment6.target=void\ setBit(boolean)
+comment7.params=t
+comment7.target=void\ setType(int)
+comment8.params=
+comment8.target=void\ flip()
+numComments=9
