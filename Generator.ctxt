@@ -1,12 +1,13 @@
 #BlueJ class context
 comment0.target=Generator
 comment0.text=\ Go\ Types\:\r\n\ 1\ \:\ up\r\n\ 2\ \:\ down\r\n\ 3\ \:\ left\ top\r\n\ 4\ \:\ left\ bottom\r\n
-comment1.params=text\ msktyp\ nam
-comment1.target=Generator(java.lang.String,\ int,\ java.lang.String)
+comment1.params=text\ msktyp
+comment1.target=Generator(java.lang.String,\ int)
 comment10.params=key
 comment10.target=java.lang.String\ searchFormatInfo(java.lang.String)
 comment11.params=x\ y\ data\ arr
 comment11.target=java.lang.String\ goup(int,\ int,\ Pixel[],\ Pixel[][])
+comment11.text=\r\n\ Folgend\ die\ Methoden\ damit\ der\ Generator\ die\ Zeichen\ auch\ in\ den\ Code\ einf\u00FCgen\ kann\r\n\ goup\ wird\ beispielsweise\ verwendet\ wenn\ ein\ Byte\ nach\ oben\ geschrieben\ werden\ soll\r\n\ Die\ methoden\ mit\ Halfbyte\ sind\ f\u00FCr\ Encoding\ Type\ und\ Message\ end\r\n
 comment12.params=x\ y\ data\ arr
 comment12.target=java.lang.String\ golefttop(int,\ int,\ Pixel[],\ Pixel[][])
 comment13.params=x\ y\ data\ arr
@@ -20,7 +21,7 @@ comment16.target=java.lang.String\ goupinterrupt(int,\ int,\ Pixel[],\ Pixel[][]
 comment17.params=x\ y\ data\ arr
 comment17.target=java.lang.String\ inserthalfbyteup(int,\ int,\ Pixel[],\ Pixel[][])
 comment18.params=x\ y\ data\ arr
-comment18.target=void\ inserthalfbytedown(int,\ int,\ Pixel[],\ Pixel[][])
+comment18.target=java.lang.String\ inserthalfbytedown(int,\ int,\ Pixel[],\ Pixel[][])
 comment2.params=msg\ typ
 comment2.target=void\ generate(java.lang.String,\ int)
 comment3.params=msg

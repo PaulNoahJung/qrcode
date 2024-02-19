@@ -1,11 +1,14 @@
 public class Control
 {
-
     static Generator gen;
 
     String err = "";
 
-    public Control(String text, int typ, String name){
+    public Control(String text, int typ){
+
+        /*
+         * Unteren If abfragen sind dazu da um zu verhinden dass das Wort im Bereich ist
+         */
 
         if(text.length() > 17){
             System.out.println("Du hast die maximale Textlänge überschritten. Die maximale Texlänge liegt bei 17");
@@ -15,21 +18,8 @@ public class Control
             return;
         }
 
-        if(name.isEmpty()){
-            System.out.println("Du musst einen Namen für deine Datei angeben.");
-            return;
-        }
-
         else{
-            gen = new Generator(text, typ, name);
+            gen = new Generator(text, typ); // generator wird erstellt
         }
-
-        //gen = new Generator(text, typ, "");
-    }
-
-    public static void main(String[] args) {
-
     }
 }
-
-// {205, 158, 144, 26, 245, 155, 41, 175, 34, 182, 69, 115, 240}

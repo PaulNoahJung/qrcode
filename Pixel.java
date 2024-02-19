@@ -14,11 +14,12 @@ public class Pixel
     // 7 = MSG END
     
 
-
     public Pixel(boolean b, int t){
         bit = b;
         type = t;
     }
+
+    // Getter und Setter Methoden
 
     public boolean getBit(){return bit;}
 
@@ -28,7 +29,7 @@ public class Pixel
 
     public void setType(int t){type = t;}
 
-    public void flip(){
+    public void flip(){ // True wird zu false bzw. False zu true
         if(bit == true){
             bit = false;
             return;
