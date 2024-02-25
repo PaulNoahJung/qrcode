@@ -1,6 +1,5 @@
 public class Pixel
 {
-
     boolean bit;
     int type;
 
@@ -13,7 +12,6 @@ public class Pixel
     // 6 = ENCTYPE
     // 7 = MSG END
     
-
     public Pixel(boolean b, int t){
         bit = b;
         type = t;

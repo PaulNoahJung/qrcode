@@ -21,10 +21,8 @@ public class JsonReader
             stringResponse = stringResponse.substring(1, stringResponse.length() -1); // zieht die anführungszeichen des Strings ab
 
         } catch (IOException ignored) { // IOExeption wird abgefangen
-            
-        }
 
+        }
         return stringResponse;
     }
-
 }
